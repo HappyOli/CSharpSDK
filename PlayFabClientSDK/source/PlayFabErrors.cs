@@ -424,6 +424,7 @@ namespace PlayFab
         PushNotificationTemplateMissingDefaultVersion = 1418,
         PushNotificationTemplateInvalidSyntax = 1419,
         PushNotificationTemplateNoCustomPayloadForV1 = 1420,
+        NoLeaderboardForStatistic = 1421,
         MatchmakingEntityInvalid = 2001,
         MatchmakingPlayerAttributesInvalid = 2002,
         MatchmakingCreateRequestMissing = 2003,
@@ -461,7 +462,10 @@ namespace PlayFab
         MatchmakingNotEnabled = 2035,
         MatchmakingGetStatisticsIdentityInvalid = 2036,
         MatchmakingStatisticsIdMissing = 2037,
-        CannotEnableMultiplayerServersForTitle = 2038
+        CannotEnableMultiplayerServersForTitle = 2038,
+        TitleConfigNotFound = 3001,
+        TitleConfigUpdateConflict = 3002,
+        TitleConfigSerializationError = 3003
     }
 
     public class PlayFabError
